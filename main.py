@@ -41,10 +41,8 @@ def main():
             user_id = columns[0]
             algorithm = columns[1]
 
-            # TODO: Define session_duration and happiness_rating variables and convert them to integers
-            # Hint: Use the int() function to convert strings to integers
-            # session_duration = ?
-            # happiness_rating = ?
+            session_duration = int(columns[2])
+            happiness_rating = int(columns[3])
 
             # Update stats based on the algorithm
             if algorithm in stats:
